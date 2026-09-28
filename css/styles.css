@@ -1,0 +1,128 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #172554;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Repeated section styling - class selector */
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Unique section - ID selector */
+#about {
+    border-left: 5px solid #1f3c88;
+}
+
+/* Section headings */
+h2 {
+    color: #1f3c88;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Learning plan table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f3c88;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile-friendly design */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
